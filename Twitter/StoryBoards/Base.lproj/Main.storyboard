@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TAS-JH-Tla">
-                                <rect key="frame" x="97.666666666666686" y="289.66666666666669" width="195" height="265.00000000000006"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TAS-JH-Tla">
+                                <rect key="frame" x="97.666666666666686" y="279.66666666666669" width="195" height="285.00000000000006"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="EPM-f1-0YE">
                                         <rect key="frame" x="0.0" y="0.0" width="195" height="195"/>
@@ -26,7 +26,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfI-eC-iGe">
-                                        <rect key="frame" x="17.333333333333329" y="195" width="160" height="70"/>
+                                        <rect key="frame" x="17.333333333333329" y="215" width="160" height="70"/>
                                         <color key="backgroundColor" red="0.11319958419999999" green="0.6314188838" blue="0.94890075920000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="cCc-wq-6mg"/>
