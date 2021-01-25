@@ -64,16 +64,16 @@
         <scene sceneID="J2m-Rk-LvF">
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="WH6-id-Vog" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sYw-NA-2dR">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sYw-NA-2dR">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="5" reuseIdentifier="tweetCell" rowHeight="150" id="IH6-aN-yaR" customClass="TweetCell" customModule="Twitter" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="390" height="150"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="5" reuseIdentifier="tweetCell" id="IH6-aN-yaR" customClass="TweetCell" customModule="Twitter" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="390" height="96.333335876464844"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IH6-aN-yaR" id="3e5-gg-OZC">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="150"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="96.333335876464844"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bx7-Yh-IBG">
@@ -85,13 +85,13 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAg-S8-0ZV">
-                                            <rect key="frame" x="105" y="11.000000000000002" width="265" height="21.666666666666671"/>
+                                            <rect key="frame" x="95" y="11.000000000000002" width="275" height="21.666666666666671"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFy-jl-iFo">
-                                            <rect key="frame" x="105" y="36.666666666666664" width="265" height="102.33333333333334"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFy-jl-iFo">
+                                            <rect key="frame" x="95" y="36.666666666666671" width="275" height="48.666666666666671"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -102,11 +102,12 @@
                                         <constraint firstItem="Bx7-Yh-IBG" firstAttribute="leading" secondItem="3e5-gg-OZC" secondAttribute="leadingMargin" id="HAs-5G-qT5"/>
                                         <constraint firstItem="cAg-S8-0ZV" firstAttribute="top" secondItem="3e5-gg-OZC" secondAttribute="topMargin" id="NYw-Qx-miH"/>
                                         <constraint firstItem="MFy-jl-iFo" firstAttribute="top" secondItem="cAg-S8-0ZV" secondAttribute="bottom" constant="4" id="ULO-ju-Msg"/>
-                                        <constraint firstItem="MFy-jl-iFo" firstAttribute="leading" secondItem="Bx7-Yh-IBG" secondAttribute="trailing" constant="20" id="aOU-KU-4WN"/>
+                                        <constraint firstItem="MFy-jl-iFo" firstAttribute="leading" secondItem="Bx7-Yh-IBG" secondAttribute="trailing" constant="10" id="aOU-KU-4WN"/>
                                         <constraint firstItem="Bx7-Yh-IBG" firstAttribute="top" secondItem="3e5-gg-OZC" secondAttribute="topMargin" id="j1Z-MU-o0S"/>
-                                        <constraint firstItem="cAg-S8-0ZV" firstAttribute="leading" secondItem="Bx7-Yh-IBG" secondAttribute="trailing" constant="20" id="mbM-sP-qMh"/>
+                                        <constraint firstItem="cAg-S8-0ZV" firstAttribute="leading" secondItem="Bx7-Yh-IBG" secondAttribute="trailing" constant="10" id="mbM-sP-qMh"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="cAg-S8-0ZV" secondAttribute="trailing" id="oUF-5M-WKh"/>
                                         <constraint firstItem="MFy-jl-iFo" firstAttribute="bottom" secondItem="3e5-gg-OZC" secondAttribute="bottomMargin" id="q7x-yJ-CyS"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bx7-Yh-IBG" secondAttribute="bottom" constant="20" id="zBx-lP-t95"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
