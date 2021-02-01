@@ -14,6 +14,23 @@ class HomeTableViewController: UITableViewController {
         UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        loadTweets()
+        
+        myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
+        
+        tableView.refreshControl = myRefreshControl
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.allowsSelection = false
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.loadTweets()
+    }
+    
     @objc func loadTweets() {
         
         numberOfTweets = 20
@@ -36,15 +53,6 @@ class HomeTableViewController: UITableViewController {
         }, failure: { (Error) in
             print("Could not retrieve tweets (loadTweets)!")
         })
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        loadTweets()
-        
-        myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
-        
-        tableView.refreshControl = myRefreshControl
     }
     
     func loadMoreTweets() {
@@ -93,6 +101,11 @@ extension HomeTableViewController {
         let imageURL = URL(string: ((user?["profile_image_url_https"] as? String)!))
         let data = try! Data(contentsOf: imageURL!)
         cell.profileImage.image = UIImage(data: data)
+        
+        cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
+        
         
         return cell
     }
