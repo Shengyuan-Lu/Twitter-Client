@@ -1,4 +1,4 @@
-# Twitter - Part II
+# BlueBird - Part II
 
 This is a basic twitter app to view, compose, favorite, and retweet tweets.
 
@@ -18,7 +18,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/d2WRDDN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# Project 3 - *Twitter*
+# Project 3 - *BlueBird*
 
 **Twitter** is a basic twitter app to read your tweets.
 
