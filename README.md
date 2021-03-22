@@ -1,6 +1,6 @@
-# Project 3 - *BlueBird*
+# BlueBird - Part I
 
-**Twitter** is a basic twitter app to read your tweets.
+**BlueBird** is a basic twitter app to read your tweets.
 
 Time spent: **3** hours spent in total
 
