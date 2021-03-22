@@ -1,28 +1,4 @@
-# Twitter - Part II
-
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
-
-Time spent: **3** hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
-
-- [x] User can compose a tweet. (4pts)
-- [x] User can favorite a tweet. (4pts)
-- [x] User can retweet a tweet. (2pts)
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://i.imgur.com/d2WRDDN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-# Project 3 - *Twitter*
-
-**Twitter** is a basic twitter app to read your tweets.
-
-Time spent: **3** hours spent in total
+# BlueBird - Part I
 
 ## User Stories
 
@@ -44,4 +20,20 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/nJjTnfe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+# BlueBird - Part II
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User can compose a tweet. (4pts)
+- [x] User can favorite a tweet. (4pts)
+- [x] User can retweet a tweet. (2pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/d2WRDDN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
