@@ -1,9 +1,5 @@
 # BlueBird - Part I
 
-**BlueBird** is a basic twitter app to read your tweets.
-
-Time spent: **3** hours spent in total
-
 ## User Stories
 
 The following **required** functionality is completed:
@@ -26,10 +22,6 @@ Here's a walkthrough of implemented user stories:
 <img src='https://i.imgur.com/nJjTnfe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # BlueBird - Part II
-
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
-
-Time spent: **3** hours spent in total
 
 ## User Stories
 
