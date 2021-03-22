@@ -1,4 +1,5 @@
 # BlueBird
+Bluebird is a Twitter client app that allows the user to login/out, view/refresh timeline, tweet, like, and retweet.
 
 ## Part 1 User Stories
 
