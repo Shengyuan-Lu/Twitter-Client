@@ -10,7 +10,7 @@
 - [x] User can pull to refresh. 
 - [x] User can load past tweets infinitely. 
 
-## Video Walkthrough
+### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
@@ -22,7 +22,7 @@ Here's a walkthrough of implemented user stories:
 - [x] User can favorite a tweet. 
 - [x] User can retweet a tweet.
 
-## Video Walkthrough
+### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
